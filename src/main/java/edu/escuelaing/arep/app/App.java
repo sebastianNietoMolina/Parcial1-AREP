@@ -20,7 +20,7 @@ public class App{
     public static void main(String[] args) {
         staticFileLocation("/static");
         port(getPort());
-        get("/trigonometrica",(req, res) -> calcula(req, res));
+        get("parcial1arepsebastiannieto.herokuapp.com/trigonometrica",(req, res) -> calcula(req, res));
 
     }
 
