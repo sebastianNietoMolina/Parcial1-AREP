@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import spark.Request;
 import spark.Response;
 
-
 import static spark.Spark.*;
 
 /**
@@ -20,8 +19,7 @@ public class App{
     public static void main(String[] args) {
         staticFileLocation("/static");
         port(getPort());
-        get("parcial1arepsebastiannieto.herokuapp.com/trigonometrica",(req, res) -> calcula(req, res));
-
+        get("/trigonometrica",(req, res) -> calcula(req, res));
     }
 
     /**
