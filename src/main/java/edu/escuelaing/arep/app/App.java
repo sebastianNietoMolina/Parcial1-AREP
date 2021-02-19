@@ -3,11 +3,7 @@ package edu.escuelaing.arep.app;
 import com.google.gson.Gson;
 import spark.Request;
 import spark.Response;
-import edu.escuelaing.arep.app.*;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 
-import java.util.List;
 
 import static spark.Spark.*;
 
